@@ -1,0 +1,188 @@
+@charset "utf-8";
+* {
+    margin:0; padding:0;
+    font-family: "M PLUS Rounded 1c";
+  }
+  header {
+    height: 80px;
+    width: 100%;
+   
+    background-color: #00a5e7;
+    color: white;
+  }
+  header .headline{
+      line-height:80px;
+      float: left;
+      font-size: 30px;
+      margin-left: 100px;
+      
+  }
+  .nav-list {
+      line-height: 80px;
+      float: right;
+      margin-right: 30px;
+      list-style: none;
+  }
+  .nav-list-item {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+  }
+
+  /* タイトル */
+  div#main{
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+  }
+  .background-photo{
+      height: 100%;
+      width: 100%;
+      
+      background-image: url("images/background.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+  h2#title{
+    font-family: 'Noto Sans JP', sans-serif;
+      text-align: left;
+      margin-top: 300px;
+      margin-left: 50px;
+      font-size: 110px;
+      color: white;
+      text-shadow    : 
+      2px  2px 1px #00a5e7,
+     -2px  2px 1px #00a5e7,
+      2px -2px 1px #00a5e7,
+     -2px -2px 1px #00a5e7,
+      2px  0px 1px #00a5e7,
+      0px  2px 1px #00a5e7,
+     -2px  0px 1px #00a5e7,
+      0px -2px 1px #00a5e7;        /* 文字の影 */
+
+
+  }
+  h2#subtitle{
+    font-family: 'Noto Sans JP', sans-serif;
+      text-emphasis: left;
+      margin-left: 50px;
+      color: #9bcad0;
+      
+  }
+  
+  /* 記事 */
+  div#main1{
+    height: auto;
+    width: 100%;
+    align-items: center;
+    background-color: whitesmoke;
+}
+  div#article{
+    height: 80vh;
+    width: 100%;
+    
+    background-color: white;
+  }
+  h2#article{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+  }
+  .screenshot{
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .smallpic{
+    border-radius: 10px;
+    margin: 12px 12px 60px 12px;
+    box-shadow: 0 0 8px gray;
+    
+  }
+ 
+  /* 記事１ */
+  
+  div#article1{
+    height: auto;
+    width: 100%;
+    
+    background-color: white;
+  }
+ 
+
+  h2#artcle1title{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+
+  }
+
+.articlesubtitle{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+    padding-bottom: 150px;
+   
+  }
+  .inner{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  .col4{
+		text-align: center;
+  }
+  .col4 li{
+		display: inline-block;
+		width: 200px;
+		padding: 0 3%;
+		vertical-align: top;
+		text-align: center;
+  }
+  .imgpoint {
+    animation: imgpoint 2s cubic-bezier(.4, 0, .2, 1);
+  }
+  
+  @keyframes imgpoint {
+    0% {
+      clip-path: circle(0 at 50% 50%);
+      -webkit-clip-path: circle(0 at 50% 50%);
+    }
+    
+    100% {
+      clip-path: circle(100% at 50% 50%);
+      -webkit-clip-path: circle(100% at 50% 50%);
+    }
+  }
+
+  #map iframe{
+		height: 200px !important;
+  }
+	
+  #footer{
+		padding: 30px 10px 70px 0;
+  }
+/* 記事2 */
+div#article2{
+  width: 100%;
+  height: 100vh;
+  background-color: whitesmoke;
+}
+h2#article2title{
+  width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+}
+.subcontenttitle{
+  font-size: 30px;
+
+}
+
